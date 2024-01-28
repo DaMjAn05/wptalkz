@@ -1,0 +1,313 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+	list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+	font-family: "Poppins", sans-serif;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+
+
+
+.col {
+	margin: 20px;
+	
+}
+
+.title {
+	width: 700px;
+	margin: 70px auto;
+	font-size: 35px;
+
+
+}
+
+.hero-cols {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 50px;
+	padding:0 100px;
+	
+	
+}
+
+.hero-col-badge {
+	color: white;
+	background: #275a60;
+	padding: 4px 12px;
+	border-radius: 4px;
+	width: fit-content;
+}
+
+.hero-header {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 30px;
+	width: 600px;
+	font-weight: bolder;
+}
+
+.hero-text {
+	font-size: 15px;
+	color: grey;
+}
+
+.hero-latest {
+	margin-top: 70px;
+	margin-left: 100px;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+hr {
+	border-width: 4px;
+	color: black;
+}
+
+nav {
+ justify-content: center;
+ display: flex;
+}
+
+
+
+
+
+.sun-icon {
+	padding-top: 34px;
+}
+
+.search-icon {
+	margin-top: 16px;
+}
+
+.img1 {
+	width: 100%;
+	height: auto;
+	margin: 50px;
+}
+
+
+
+.cols2 {
+	display: flex;
+}
+
+.col2 {
+	margin: 40px 40px;
+	max-width: 100%;
+}
+
+.container {
+	display: flex;
+	align-items: left;
+	margin-top: 50px;
+	
+}
+
+.img-cont {
+	flex-shrink: 0;
+  margin-right: 20px;
+ margin-left: 100px;
+	 
+}
+
+.img-cont img {
+  width: 400px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.text-container {
+width: 400px;
+}
+
+.par {
+	font-size: 15px;
+	color: #5C5D5F;
+	
+	
+}
+
+.par1 {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.latest-h {
+	font-weight: bolder;
+	font-size: 20px;
+	width: 500px;
+}
+
+.tips-button {
+	background-color:#275a60 ;
+	border-radius: 4px;
+	color: white;
+		width: fit-content;
+		padding: 4px 12px;
+		font-weight: lighter;
+
+	
+}
+
+.latest-p {
+	color: #5C5D5F;
+	font-size: 15px;
+}
+
+.container1 {
+	display: flex;
+	margin-top: 30px;
+
+}
+
+.img-cont1 img {
+	width: 400px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.img-cont1 {
+	flex-shrink: 0;
+  margin-right: 20px;
+ margin-left: 100px;
+}
+
+.seo-opt1 {
+background-color:#275a60 ;
+	border-radius: 4px;
+	color: white;
+		width: fit-content;
+		padding: 4px 12px;
+		font-weight: lighter;
+}
+  
+.optimization-h1 {
+	font-weight: bolder;
+	font-size: 20px;
+	width: 500px;
+}
+
+.optimization-p1 {
+	color: #5C5D5F;
+	font-size: 15px;
+}
+
+.container2 {
+	display: flex;
+	margin-top: 20px;
+}
+
+.img-cont2 img {
+	width: 400px; /* Adjust the width as needed */
+  height: auto; }
+
+  .img-cont2 {
+	margin-left: 100px;
+	  margin-right: 20px;
+
+  }
+
+  .text-container1 {
+	width: 400px;
+  }
+
+  .text-container2 {
+	width: 400px;
+  }
+
+.side-container2 {
+	background-color: #A0A3A8;
+	float: right;
+	margin-left: 300px;
+	padding: 10px;
+	border: solid #71747B 4px;
+	border-radius: 10px;
+
+}
+
+  .notifications-icon {
+}
+
+.side-text {
+	max-width: 300px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.sidebar {
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	z-index: 999;
+}
